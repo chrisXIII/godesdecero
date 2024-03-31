@@ -16,7 +16,7 @@ func DevolverEntero(entero string)(enteronumero int, mensaje string){
 			mensaje = "Es igual a 100"
 		}
 	} else{
-		mensaje = errorconvert.Error()
+		mensaje = "Hubo un error: " + errorconvert.Error()
 	}
 
 	return enteronumero,mensaje
