@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "runtime"
 
-	"github.com/chrisXIII/godesdecero/ejercicios"
+	// "github.com/chrisXIII/godesdecero/ejercicios"
 	// "github.com/chrisXIII/godesdecero/variables"
+	"github.com/chrisXIII/godesdecero/teclado"
 )
 
 func main() {
@@ -30,9 +31,11 @@ func main() {
 	// 	fmt.Printf("%s \n", os)	
 	// }
 
-	fmt.Println(ejercicios.DevolverEntero("300"))
-	fmt.Println(ejercicios.DevolverEntero("50"))
-	fmt.Println(ejercicios.DevolverEntero("100"))
-	fmt.Println(ejercicios.DevolverEntero("0"))
-	fmt.Println(ejercicios.DevolverEntero("E"))
+	// fmt.Println(ejercicios.DevolverEntero("300"))
+	// fmt.Println(ejercicios.DevolverEntero("50"))
+	// fmt.Println(ejercicios.DevolverEntero("100"))
+	// fmt.Println(ejercicios.DevolverEntero("0"))
+	// fmt.Println(ejercicios.DevolverEntero("E"))
+
+		teclado.IngresosNumeros()
 }
