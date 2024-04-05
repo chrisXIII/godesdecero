@@ -4,10 +4,10 @@ import (
 	// "fmt"
 	// "runtime"
 
-	// "github.com/chrisXIII/godesdecero/ejercicios"
+	"github.com/chrisXIII/godesdecero/ejercicios"
 	// "github.com/chrisXIII/godesdecero/variables"
 	// "github.com/chrisXIII/godesdecero/teclado"
-	"github.com/chrisXIII/godesdecero/iteraciones"
+	// "github.com/chrisXIII/godesdecero/iteraciones"
 )
 
 func main() {
@@ -40,5 +40,7 @@ func main() {
 
 		// teclado.IngresosNumeros()
 
-		iteraciones.Iterar()
+		// iteraciones.Iterar()
+
+	ejercicios.IngresarNumero()
 }
