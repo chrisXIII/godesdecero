@@ -6,7 +6,8 @@ import (
 
 	// "github.com/chrisXIII/godesdecero/ejercicios"
 	// "github.com/chrisXIII/godesdecero/variables"
-	"github.com/chrisXIII/godesdecero/teclado"
+	// "github.com/chrisXIII/godesdecero/teclado"
+	"github.com/chrisXIII/godesdecero/iteraciones"
 )
 
 func main() {
@@ -37,5 +38,7 @@ func main() {
 	// fmt.Println(ejercicios.DevolverEntero("0"))
 	// fmt.Println(ejercicios.DevolverEntero("E"))
 
-		teclado.IngresosNumeros()
+		// teclado.IngresosNumeros()
+
+		iteraciones.Iterar()
 }
