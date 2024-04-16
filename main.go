@@ -3,8 +3,8 @@ package main
 import (
 	// "fmt"
 	// "runtime"
-
-	"github.com/chrisXIII/godesdecero/ejercicios"
+	"github.com/chrisXIII/godesdecero/files"
+	// "github.com/chrisXIII/godesdecero/ejercicios"
 	// "github.com/chrisXIII/godesdecero/variables"
 	// "github.com/chrisXIII/godesdecero/teclado"
 	// "github.com/chrisXIII/godesdecero/iteraciones"
@@ -42,5 +42,9 @@ func main() {
 
 		// iteraciones.Iterar()
 
-	ejercicios.IngresarNumero()
+	// files.GrabaTabla()
+
+	// files.SumaTabla()
+
+	files.LeoArchivo()
 }

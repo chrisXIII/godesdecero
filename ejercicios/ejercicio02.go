@@ -9,8 +9,9 @@ import (
 
 var numero int
 var err error
+var texto string
 
-func IngresarNumero() {
+func TabladeMultiplicar() string {
 	scan := bufio.NewScanner(os.Stdin)
 
 	for {
@@ -29,6 +30,8 @@ func IngresarNumero() {
 
 	for i := 1; i <= 10; i++ {
 		num := numero * i
-		fmt.Printf("%d x %d = %d \n",numero,i,num)
+		texto += fmt.Sprintf("%d x %d = %d \n",numero,i,num)
 	}
+
+	return texto
 }
